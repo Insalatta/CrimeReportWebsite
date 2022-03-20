@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import p4 from "./Picture/p4.jpg";
 import {BrowserRouter,Routes,Route,Link,Outlet} from "react-router-dom";
 import Home from "./Pages/Home";
 import Crime from "./Pages/Crime";
@@ -18,7 +17,7 @@ class Header extends React.Component{
               <p className="sub">Report crime before it cast another life.</p>
             </div>
             <Link to="/" className="elements">Home</Link>
-            <Link to="/crime" className="elements">Crime</Link>
+            <Link to="/crime" className="elements">Report</Link>
             <Link to="/search" className="elements">Search</Link>
             <Link to="/about" className="elements">About</Link>
           </div>

@@ -6,7 +6,27 @@ class Crime extends React.Component{
         return(
             <div className="homeWrapper">
                 <img src={p4} className="image" />
-                <p className="homeHeader">Crime Page</p>
+                <div className="personalDetailsWrapper">
+                    <label className="Label" >Name : 
+                        <input type="text" className="Input" />
+                    </label>
+                    <label className="Label">Email Id :
+                        <input type="text" className="Input" />
+                    </label>
+                </div>
+                <div className="dateDetailsWrapper">
+                    <label className="Label" >Date :
+                        <input type="date" className="Input" />
+                    </label>
+                    <label className="Label">Place :
+                        <input type="text" className="Input" />
+                    </label>
+                </div>
+                <div className="descriptionWrapper">
+                    <p>Description</p>
+                    <textarea className="descriptionBox"></textarea>
+                </div>
+                <div className="reportSubmit">SUBMIT</div>
             </div>
         )
     }
