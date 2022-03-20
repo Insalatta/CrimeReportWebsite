@@ -12,7 +12,7 @@ class Home extends React.Component{
                     <br></br>
                     <br></br>
                     Please report the crime in the report page so 
-                    that everyone will be aware of it and we let 
+                    that everyone will be aware of it and we will let 
                     the police handle the case.
                 </p>
                 

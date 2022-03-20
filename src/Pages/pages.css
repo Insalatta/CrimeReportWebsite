@@ -23,16 +23,7 @@
     box-shadow:1px 1px 16px 4px black;
     top:200px;
 }
-.homeContent2{
-    padding:40px;
-    position:absolute;
-    color:white;
-    top:400px;
-    width:50%;
-    font-size:20px;
-    text-align:center;
-    box-shadow: 1px 1px 7px 4px black;
-}
+
 /*Report Page CSS */
 .personalDetailsWrapper{
     position:absolute;
