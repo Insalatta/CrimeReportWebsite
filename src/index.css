@@ -63,4 +63,6 @@ img{
   opacity:1;
   z-index:-1;
 }
-
+.active{
+  background-color:#282A35;
+}
